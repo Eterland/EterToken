@@ -25,17 +25,17 @@ contract ETER is
         _;
     }
 
-    uint256 private constant _baseMultiplier = uint256(10)**18;
+ 
    
-    uint256 public constant MAX_SUPPLY = 30000000 * _baseMultiplier;
+    uint256 public constant MAX_SUPPLY = 30000000 ether;
     
 	uint256 public totalMinted = 0;
-    uint256 private constant MAX_TEAM_SUPPLY = 2670000 * _baseMultiplier;
+    uint256 private constant MAX_TEAM_SUPPLY = 2670000 ether;
 
-    uint256 private constant MAX_PRIVATE_SALE_SELL = 1200000 * _baseMultiplier;
+    uint256 private constant MAX_PRIVATE_SALE_SELL = 1200000 ether;
 
-    uint256 private constant MAX_ECOSYSTEM_SUPPLY = 18000000 * _baseMultiplier;
-	uint256 private constant MAX_LIQUIDITY_SUPPLY = 6000000 * _baseMultiplier;
+    uint256 private constant MAX_ECOSYSTEM_SUPPLY = 18000000 ether;
+	uint256 private constant MAX_LIQUIDITY_SUPPLY = 6000000 ether;
     uint256 public totalBurn = 0;
 
    	/*
